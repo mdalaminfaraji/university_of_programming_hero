@@ -1,4 +1,4 @@
-type TUser = {
+export type TUser = {
   id: string;
   password: string;
   needsPasswordChange: boolean;
@@ -6,4 +6,3 @@ type TUser = {
   status: 'in-progress' | 'blocked';
   isDeleted: boolean;
 };
-export default TUser;
