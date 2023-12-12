@@ -1,8 +1,7 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import { Response } from 'express';
 
 type TResponse<T> = {
-  statusCode: any;
+  statusCode: number;
   success: boolean;
   message?: string;
   data: T;
